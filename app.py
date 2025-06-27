@@ -16,7 +16,7 @@ with st.sidebar:
     # ... (Kenar çubuğu kodu aynı, değişiklik yok) ...
     st.header("⚙️ Kontrol Paneli")
     use_sample_video = st.checkbox("Örnek Videoyu Kullan", value=True)
-    sample_video_path = "videos/ornekvideo.mp4"
+    sample_video_path = "videos/videoo.mp4"
     uploaded_file = st.file_uploader("Veya Kendi Videonuzu Yükleyin", type=["mp4", "mov", "avi"], disabled=use_sample_video)
     st.subheader("Hassasiyet Ayarları")
     inlier_ratio_threshold = st.slider("Hassasiyet Eşiği", 0.1, 1.0, 0.7, 0.05)
